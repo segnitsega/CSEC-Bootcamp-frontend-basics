@@ -1,0 +1,138 @@
+.box1{
+    width: 74px;
+    height: 74px;
+    background-color: #6C63FF;
+    
+}
+.box2{
+    width: 74px;
+    height: 74px;
+    background-color: #F7F7F7;
+    border: 1px solid;
+   
+}
+.box3{
+    width: 74px;
+    height: 74px;
+    background-color: black;
+    
+
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+h1{
+   text-align: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inpt{
+  
+    margin-top: -10px;
+    border: 1px solid #6C63FF;
+    position: relative;
+    width: 536px;
+    height: 38px;
+    border-radius: 5px;
+}
+.inpt label{
+   position: absolute;
+   left: 10px;
+   top: 10px;
+   color: #6C63FF;
+}
+.inpt input{
+    position: absolute;
+    width: 400px;
+    outline: none;
+    border: none;
+    border-left: 1px solid #6C63FF;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+.inpt i{
+    position: absolute;
+    color: #6C63FF;
+    right: 10px;
+    top: 10px;
+}
+.inputs p{
+    margin-left: -500px;
+}
+
+.dark-inpt{
+    color: white;
+    background-color: black;
+    margin-top: -10px;
+    border: 1px solid #6C63FF;
+    position: relative;
+    width: 536px;
+    height: 38px;
+    border-radius: 5px;
+}
+.dark-inpt label{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    /* color: #6C63FF; */
+ }
+ .dark-inpt input{
+    color: white;
+    background-color: black;
+     position: absolute;
+     width: 400px;
+     outline: none;
+     border: none;
+     border-left: 1px solid white;
+     left: 50px;
+     top: 10px;
+ }
+ .dark-inpt i{
+     position: absolute;
+     /* color: #6C63FF; */
+     right: 10px;
+     top: 10px;
+ }
+
+
+ .light-dark{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+ .light{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 92px;
+    
+ }
+ .dark{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 10px;
+    height: 194px;
+    color: white;
+ }
+ #options{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #6C63FF;
+    color: white;
+    cursor:pointer;
+
+ }
+ option{
+    background-color: white;
+    color: #6C63FF;
+    cursor:pointer;
+ }
